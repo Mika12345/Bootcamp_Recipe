@@ -21,7 +21,13 @@ class Recipe {
     private(set) var instruction_list: [String]
     //private(set) var total_time:Float
     
-    
+    private func print_ingredients() -> string{
+        
+        return "ingredients: " + Recipe.ingredients_list + "time: " + Recipe.total_time
+    }
+    print(print_ingredients(Recipe.ingredients_list))
+    //(string[], float[])
+  
 }
 
 class Ingredients{
