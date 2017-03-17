@@ -10,9 +10,11 @@ import Foundation
 
 
 class Recipe {
-    init(recipe_name: String, ingredients_list: [Ingredients]){
+    init(recipe_name: String, ingredients_list: [String],instruction_list: [Ingredients]){
         self.recipe_name = recipe_name
         self.ingredients_list = ingredients_list
+        self.instruction_list = instruction_list
+        self.total_time = total_time
     }
     private(set) var recipe_name:String
     private(set) var ingredients_list: [Ingredients]
