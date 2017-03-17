@@ -14,6 +14,7 @@
 		3649DAEE1E7B5D2B00F657AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3649DAEC1E7B5D2B00F657AD /* LaunchScreen.storyboard */; };
 		3649DAF91E7B5D2B00F657AD /* Bootcamp_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649DAF81E7B5D2B00F657AD /* Bootcamp_RecipeTests.swift */; };
 		3649DB041E7B5D2B00F657AD /* Bootcamp_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649DB031E7B5D2B00F657AD /* Bootcamp_RecipeUITests.swift */; };
+		3649DB121E7B7BF300F657AD /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649DB111E7B7BF300F657AD /* recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3649DAFF1E7B5D2B00F657AD /* Bootcamp_RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootcamp_RecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3649DB031E7B5D2B00F657AD /* Bootcamp_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp_RecipeUITests.swift; sourceTree = "<group>"; };
 		3649DB051E7B5D2B00F657AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3649DB111E7B7BF300F657AD /* recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3649DAE31E7B5D2B00F657AD /* AppDelegate.swift */,
 				3649DAE51E7B5D2B00F657AD /* ViewController.swift */,
 				3649DAE71E7B5D2B00F657AD /* Main.storyboard */,
+				3649DB111E7B7BF300F657AD /* recipe.swift */,
 				3649DAEA1E7B5D2B00F657AD /* Assets.xcassets */,
 				3649DAEC1E7B5D2B00F657AD /* LaunchScreen.storyboard */,
 				3649DAEF1E7B5D2B00F657AD /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3649DB121E7B7BF300F657AD /* recipe.swift in Sources */,
 				3649DAE61E7B5D2B00F657AD /* ViewController.swift in Sources */,
 				3649DAE41E7B5D2B00F657AD /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				3649DB0A1E7B5D2B00F657AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3649DB0B1E7B5D2B00F657AD /* Build configuration list for PBXNativeTarget "Bootcamp_RecipeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				3649DB0D1E7B5D2B00F657AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3649DB0E1E7B5D2B00F657AD /* Build configuration list for PBXNativeTarget "Bootcamp_RecipeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				3649DB101E7B5D2B00F657AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
